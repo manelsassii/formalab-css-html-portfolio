@@ -40,6 +40,11 @@ h4{
     letter-spacing: 0.12rem;
     color: var(--secondoryColor);
 }
+h5{
+    font-size: 1.37rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
 .home{
     width: 100%;
     height: 100vh;
@@ -49,6 +54,12 @@ h4{
 }
 span{
     color: var(--primaryColor);
+}
+p{
+    color: var(--secondoryColor);
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
 }
 
 nav{
@@ -116,14 +127,14 @@ nav ul li a:hover{
 }
 
 
-.container-images{
+.home .container-images{
     width: 45%;
     height: 90%;
     position: relative;
     align-self: flex-end;
 
 }
-.container-images img{
+.home .container-images img{
     position: absolute;
     bottom: 0;
     height: 100%;
@@ -132,11 +143,28 @@ nav ul li a:hover{
     transition: bottom 1s,left 1s ;
 
 }
-.container-images:hover .shape{
+.home .container-images:hover .shape{
     bottom: 40px;
 
 } 
-.container-images:hover .pic{
+.home .container-images:hover .pic{
     left: 45%;
     
 } 
+.about{
+    background-color: var(--byColor-2);
+    padding:  2rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .container-images{
+    width: 35%;
+}
+.about .container-images img{
+    width: 90%;
+}
+.about .container-texts{
+    width: 35%;
+
+}
