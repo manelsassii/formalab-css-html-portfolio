@@ -168,3 +168,28 @@ nav ul li a:hover{
     width: 35%;
 
 }
+.services{
+    background-color: var(--byColor-1);
+    padding:  2rem var(--padding);
+}
+.text-center{
+    text-align: center;
+
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 250px;
+    background-color: var(--byColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+}
+.card i{
+    font-size: 3.12rem;
+    text-align: center;
+    color: var(--primaryColor);
+    margin: 2rem;
+}
